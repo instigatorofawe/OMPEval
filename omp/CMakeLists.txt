@@ -1,0 +1,1 @@
+add_library(ompeval CardRange.cpp CardRange.h CombinedRange.cpp CombinedRange.h Constants.h EquityCalculator.cpp EquityCalculator.h Hand.h HandEvaluator.cpp HandEvaluator.h OffsetTable.hxx Random.h Util.h)
