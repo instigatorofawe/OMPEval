@@ -6,3 +6,5 @@ add_subdirectory(omp)
 
 add_executable(test benchmark.cpp test.cpp)
 target_link_libraries(test ompeval pthread)
+
+install(TARGETS ompeval)
